@@ -80,6 +80,9 @@ on enable-low-power
     write /sys/devices/system/cpu/cpu7/online 1
 
     # Update foreground and background cpusets
+
+    # CPU Fix by K4CZP3R
+
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7
     write /dev/cpuset/background/cpus 0-7

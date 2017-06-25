@@ -48,7 +48,9 @@ on enable-low-power
     write /sys/devices/system/cpu/cpu6/online 1
     write /sys/devices/system/cpu/cpu7/online 1
 
-    #k4czp3r
+
+    # CPU Fix by K4CZP3R 
+
     # Update foreground and background cpusets
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/boost/cpus 0-7

@@ -165,9 +165,11 @@ on init
     # sets up initial cpusets for ActivityManager
     mkdir /dev/cpuset
     mount cpuset none /dev/cpuset
-    #k4czp3r
     # this ensures that the cpusets are present and usable, but the device's
     # init.rc must actually set the correct cpus
+
+    # CPU Fix by K4CZP3R
+
     mkdir /dev/cpuset/foreground
     write /dev/cpuset/foreground/cpus 0-7
     write /dev/cpuset/foreground/mems 0-7
