@@ -178,14 +178,14 @@ on init
     write /dev/cpuset/foreground/boost/cpus 0-7
     write /dev/cpuset/foreground/boost/mems 0-7
     mkdir /dev/cpuset/background
-    write /dev/cpuset/background/cpus 0-7
+    write /dev/cpuset/background/cpus 1
     write /dev/cpuset/background/mems 0-7
 
     # system-background is for system tasks that should only run on
     # little cores, not on bigs
     # to be used only by init, so don't change system-bg permissions
     mkdir /dev/cpuset/system-background
-    write /dev/cpuset/system-background/cpus 0-7
+    write /dev/cpuset/system-background/cpus 4-7
     write /dev/cpuset/system-background/mems 0-7
 
     mkdir /dev/cpuset/top-app
