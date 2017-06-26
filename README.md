@@ -5,7 +5,7 @@ ROMs (LineageOS and Resurrection Remix)
 
 ### Changes
 
-Two files are edited: init.hi6210sft.power.rc and init.rc
+Two files are edited: init.hi6210sft.power.rc and init.rc / Thanks for it @dominj97
 
 init.hi6210sft.power.rc:
 ```
