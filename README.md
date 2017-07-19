@@ -3,6 +3,10 @@
 This repo contains edited ramdisk files (Thanks @OpenKirin!) which are fixing cpu issue on nougats 
 ROMs (LineageOS and Resurrection Remix)
 
+Download: [LineageOS / Resurrection Remix](https://github.com/K4CZP3R/p8lite-cpufix/releases)  
+
+Installation: Install "Update" version
+
 ### Changes
 
 Two files are edited: init.hi6210sft.power.rc and init.rc / Thanks for it @dominj97
