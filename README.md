@@ -29,6 +29,11 @@ write /dev/cpuset/system-background/cpus 0-7
 There are almost the same changes in init.rc.
 
 Here some screenshots and video from a game:
-![Antutu benchmark on RROS](https://user-images.githubusercontent.com/16763276/27516953-c6de0e96-59c3-11e7-9160-76fca0f16dea.png)
+
+
+<details> 
+  <summary>Screenshots and video</summary>
+   <p> ![Antutu benchmark on RROS](https://user-images.githubusercontent.com/16763276/27516953-c6de0e96-59c3-11e7-9160-76fca0f16dea.png)
 ![Antutu benchmark on LOS](https://user-images.githubusercontent.com/16763276/27516954-cd8d1a7a-59c3-11e7-9013-147d9ce25008.png)
-https://drive.google.com/file/d/0B-5Wqqs1Gx_od0xNZHhoRVg5X1k/view Real Racing 3 after CPU Fix
+https://drive.google.com/file/d/0B-5Wqqs1Gx_od0xNZHhoRVg5X1k/view Real Racing 3 after CPU Fix</p> 
+</details>
