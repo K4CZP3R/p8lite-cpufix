@@ -30,7 +30,6 @@ There are almost the same changes in init.rc.
 
 Here some screenshots and video from a game:
 
-
 <details> 
   <summary>Screenshots and video (Click Me)</summary>
    <p> 
